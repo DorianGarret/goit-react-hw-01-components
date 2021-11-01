@@ -2,9 +2,9 @@ import styled from '@emotion/styled'
 
 export const Wrapper = styled.div`
   max-width: 350px;
-  border-radius: 8px;
-  background-color: #fff;
-  border: 1px solid #cecece;
+  border-radius: 0.7rem;
+  background-color: var(--bs-light);
+  border: 1px solid var(--bs-gray-300);
   overflow: hidden;
   box-shadow: -1px 1px 13px 0px rgba(141, 60, 221, 0.5);
   margin: 2rem;
@@ -22,26 +22,25 @@ export const Image = styled.img`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  display: block;
   margin: 0 auto 20px;
   background-color: var(--bs-gray-500);
 `
 
 export const Name = styled.p`
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 16px;
 `
 
 export const Tag = styled.p`
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 16px;
   color: var(--bs-gray-500);
 `
 
 export const Location = styled.p`
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0;
   color: var(--bs-gray-600);
@@ -71,7 +70,7 @@ export const Label = styled.span`
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 8px;
-  color: #9b9b9b;
+  color: var(--bs-gray-600);
 `
 
 export const Quantity = styled.span`
