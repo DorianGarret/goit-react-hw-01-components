@@ -6,7 +6,9 @@ import {
   Wrapper,
   Description,
   Image,
-  Paragraph,
+  Name,
+  Tag,
+  Location,
   List,
   ListItem,
   Label,
@@ -18,12 +20,12 @@ const Profile = ({ name, avatar, tag, location, stats: { followers, views, likes
     <Wrapper>
       <Description>
         <Image src={avatar} alt={name} />
-        <Paragraph>{name}</Paragraph>
-        <Paragraph>
+        <Name>{name}</Name>
+        <Tag>
           <MdOutlineAlternateEmail />
           {tag}
-        </Paragraph>
-        <Paragraph>{location}</Paragraph>
+        </Tag>
+        <Location>{location}</Location>
       </Description>
       <List>
         <ListItem>
