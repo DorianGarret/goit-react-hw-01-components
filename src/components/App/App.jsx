@@ -1,11 +1,20 @@
-import { name, avatar, tag, location, stats } from 'data/user.json'
+import user from 'data/user.json'
+import statisticalData from 'data/statistical-data.json'
 
 import Profile from 'components/Profile/Profile'
+import Statistics from 'components/Statistics/Statistics'
 
 function App() {
   return (
     <>
-      <Profile name={name} avatar={avatar} tag={tag} location={location} stats={stats} />
+      <Profile
+        name={user.name}
+        avatar={user.avatar}
+        tag={user.tag}
+        location={user.location}
+        stats={user.stats}
+      />
+      <Statistics title="Upload stats" stats={statisticalData} />
     </>
   )
 }

@@ -48,7 +48,6 @@ export const Location = styled.p`
 
 export const List = styled.ul`
   display: flex;
-  list-style: none;
   margin: 0;
   padding: 0;
 `
