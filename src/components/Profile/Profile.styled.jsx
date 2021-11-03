@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   background-color: var(--bs-light);
   border: 1px solid var(--bs-gray-300);
   overflow: hidden;
-  box-shadow: -1px 1px 13px 0px rgba(141, 60, 221, 0.5);
+  box-shadow: var(--bs-shadow);
   margin: 2rem;
 `
 

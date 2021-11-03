@@ -11,7 +11,7 @@ const Statistics = ({ title, stats }) => {
           return (
             <ListItem key={id} style={{ backgroundColor: `${getRandomHexColor()}` }}>
               <Label>{label}</Label>
-              <Percentage>{percentage}</Percentage>
+              <Percentage>{percentage}%</Percentage>
             </ListItem>
           )
         })}
