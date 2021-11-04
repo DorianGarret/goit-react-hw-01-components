@@ -8,6 +8,7 @@ export const Wrapper = styled.article`
   box-shadow: var(--bs-shadow);
   overflow: hidden;
   margin: 2rem;
+  border-radius: 0.5rem;
 `
 
 export const Title = styled.h2`
