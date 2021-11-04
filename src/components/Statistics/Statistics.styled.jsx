@@ -50,7 +50,6 @@ export const ListItem = styled.li`
   ${(props) => themes[props.type]};
   /* composes в emotion нет =) */
 `
-console.log(themes)
 
 export const Label = styled.span`
   font-size: 1rem;
