@@ -1,7 +1,7 @@
 [
-  { "id": "id-1", "label": ".docx", "percentage": 22, "theme": "#0dcaf0" },
-  { "id": "id-2", "label": ".pdf", "percentage": 4, "theme": "#6f42c1" },
-  { "id": "id-3", "label": ".mp3", "percentage": 17, "theme": "#dc3545" },
-  { "id": "id-4", "label": ".psd", "percentage": 47, "theme": "#fd7e14" },
-  { "id": "id-5", "label": ".pdf", "percentage": 10, "theme": "#0d6efd" }
+  { "id": "id-1", "label": ".docx", "percentage": 22 },
+  { "id": "id-2", "label": ".pdf", "percentage": 4 },
+  { "id": "id-3", "label": ".mp3", "percentage": 17 },
+  { "id": "id-4", "label": ".psd", "percentage": 47 },
+  { "id": "id-5", "label": ".pdf", "percentage": 10 }
 ]

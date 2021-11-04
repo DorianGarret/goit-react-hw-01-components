@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { css } from '@emotion/react'
 
 export const Wrapper = styled.article`
   max-width: 500px;
@@ -24,7 +25,21 @@ export const List = styled.ul`
   padding: 0;
   list-style: none;
 `
-
+// Вот это я додумался
+const themes = {
+  '.docx': css`
+    background-color: var(--bs-cyan);
+  `,
+  '.pdf': css`
+    background-color: var(--bs-purple);
+  `,
+  '.mp3': css`
+    background-color: var(--bs-red);
+  `,
+  '.psd': css`
+    background-color: var(--bs-info);
+  `,
+}
 export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
@@ -32,7 +47,10 @@ export const ListItem = styled.li`
   flex: 1;
   padding: 1.2rem;
   color: var(--bs-white);
+  ${(props) => themes[props.type]};
+  /* composes в emotion нет =) */
 `
+console.log(themes)
 
 export const Label = styled.span`
   font-size: 1rem;

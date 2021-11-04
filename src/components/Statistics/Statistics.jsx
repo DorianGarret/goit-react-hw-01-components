@@ -6,9 +6,9 @@ const Statistics = ({ title, stats }) => {
     <Wrapper>
       <Title>{title}</Title>
       <List>
-        {stats.map(({ id, label, percentage, theme }) => {
+        {stats.map(({ id, label, percentage }) => {
           return (
-            <ListItem key={id} style={{ backgroundColor: `${theme}` }}>
+            <ListItem key={id} type={label}>
               <Label>{label}</Label>
               <Percentage>{percentage}%</Percentage>
             </ListItem>
@@ -26,7 +26,6 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-      theme: PropTypes.string.isRequired,
     }),
   ),
 }
