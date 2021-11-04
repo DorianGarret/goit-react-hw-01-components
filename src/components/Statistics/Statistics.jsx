@@ -4,7 +4,7 @@ import { Wrapper, Title, List, ListItem, Label, Percentage } from './Statistics.
 const Statistics = ({ title, stats }) => {
   return (
     <Wrapper>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <List>
         {stats.map(({ id, label, percentage }) => {
           return (
