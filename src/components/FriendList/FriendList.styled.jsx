@@ -23,7 +23,8 @@ export const ListItem = styled.li`
   align-items: center;
 
   margin: 0.5rem;
-  border: 1px solid var(--bs-gray-100);
+  border-radius: 0.3rem;
+  border: 1px solid var(--bs-gray-300);
   box-shadow: 0px 5px 4px -1px rgba(0, 0, 0, 0.88);
 `
 
