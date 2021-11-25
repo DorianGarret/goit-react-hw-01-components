@@ -19,7 +19,7 @@ const Profile = ({ name, avatar, tag, location, stats: { followers, views, likes
       <Description>
         <Image src={avatar} alt={name} />
         <Name>{name}</Name>
-        <Tag>@{tag}</Tag>
+        <Tag>{`@${tag}`}</Tag>
         <Location>{location}</Location>
       </Description>
       <List>
