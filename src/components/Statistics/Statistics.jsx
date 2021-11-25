@@ -1,5 +1,12 @@
 import PropTypes from 'prop-types'
-import { Wrapper, Title, List, ListItem, Label, Percentage } from './statistics.styled'
+import {
+  Wrapper,
+  Title,
+  List,
+  ListItem,
+  Label,
+  Percentage,
+} from './Statistics.styled'
 
 const Statistics = ({ title, stats }) => {
   return (

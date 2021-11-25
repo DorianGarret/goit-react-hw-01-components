@@ -11,9 +11,17 @@ import {
   ListItem,
   Label,
   Quantity,
-} from './profile.styled'
+} from './Profile.styled'
 
-const Profile = ({ name, avatar, tag, location, stats: { followers, views, likes } }) => {
+const Profile = (props) => {
+  const {
+    name,
+    avatar,
+    tag,
+    location,
+    stats: { followers, views, likes },
+  } = props
+
   return (
     <Wrapper>
       <Description>
