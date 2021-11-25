@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types'
 
-import { MdOutlineAlternateEmail } from 'react-icons/md'
-
 import {
   Wrapper,
   Description,
@@ -21,10 +19,7 @@ const Profile = ({ name, avatar, tag, location, stats: { followers, views, likes
       <Description>
         <Image src={avatar} alt={name} />
         <Name>{name}</Name>
-        <Tag>
-          <MdOutlineAlternateEmail />
-          {tag}
-        </Tag>
+        <Tag>@{tag}</Tag>
         <Location>{location}</Location>
       </Description>
       <List>
