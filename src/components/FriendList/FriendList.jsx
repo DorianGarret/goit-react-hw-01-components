@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Wrapper, List, ListItem, Status, Avatar, Name } from './FriendList.styled'
+import { Wrapper, List, ListItem, Status, Avatar, Name } from './friendList.styled'
 
 const FriendList = ({ friends }) => {
   return (

@@ -13,7 +13,7 @@ import {
   ListItem,
   Label,
   Quantity,
-} from './Profile.styled'
+} from './profile.styled'
 
 const Profile = ({ name, avatar, tag, location, stats: { followers, views, likes } }) => {
   return (
